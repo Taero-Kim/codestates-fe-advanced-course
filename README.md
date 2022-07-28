@@ -81,10 +81,10 @@
   - 잘 적용되었는지 확인을 위해 로컬 환경에서 콘솔창에 `<PostItem />` 컴포넌트(함수)의 실행횟수를 테스트 해봤습니다.
   - 상황은 `<PostItem />`을 드롭다운을 통해 한 페이지당 5개씩 보기에서 -> 10개씩 보기로 변경해본 상황입니다.
   1. `React.memo` 적용전 : `<PostItem />` 10번 그대로 재실행
-  
+  ![react-memo-case1](./gif/react-memo-before)
 
   2. `React.memo` 적용후 : `<PostItem />` 추가되는 5개의 목록에 대해서만 재실행
- 
+  ![react-memo-case2](./gif/react-memo-before)
 
 ## 추가 구현 사항에 대한 구현 방법과 설명
 - 페이지네이션 개요
