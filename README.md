@@ -90,7 +90,7 @@
      ![react-memo-case1](./screenshots/react-memo-before.gif)
 
   2. `React.memo` 적용후 : `<PostItem />` 추가되는 5개의 목록에 대해서만 재실행
-     ![react-memo-case2](./screenshots/react-memo-before)
+     ![react-memo-case2](./screenshots/react-memo-after.gif)
 
 ## 추가 구현 사항에 대한 구현 방법과 설명
 
