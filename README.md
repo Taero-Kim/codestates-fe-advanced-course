@@ -3,6 +3,8 @@ SEB_PART_06 수료생 김태현입니다.
 
 ## 완성된 GIF 파일 및 배포 링크
 
+https://taero-kim.github.io
+
 ## 🍫 프로젝트 실행 방법
 
 1. `cd client` : 터미널에서 client 디렉토리로 접근<br />
