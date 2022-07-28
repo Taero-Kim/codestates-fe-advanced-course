@@ -87,10 +87,10 @@
   - 상황은 `<PostItem />`을 드롭다운을 통해 한 페이지당 5개씩 보기에서 -> 10개씩 보기로 변경해본 상황입니다.
 
   1. `React.memo` 적용전 : `<PostItem />` 10번 그대로 재실행
-     ![react-memo-case1](./screenshot/react-memo-before.gif)
+     ![react-memo-case1](./screenshots/react-memo-before.gif)
 
   2. `React.memo` 적용후 : `<PostItem />` 추가되는 5개의 목록에 대해서만 재실행
-     ![react-memo-case2](./screenshot/react-memo-before)
+     ![react-memo-case2](./screenshots/react-memo-before)
 
 ## 추가 구현 사항에 대한 구현 방법과 설명
 
