@@ -57,9 +57,9 @@ SEB_PART_06 수료생 김태현입니다.
 
 - UI 디자인
 
-  - 기본적으로 Figma 툴을 사용하여 화면을 그렸습니다.
+  - 기본적으로 Figma 툴을 사용하여 화면을 그렸습니다. 👉 [Figma Link](https://www.figma.com/file/mB5HXfj3HnM8C1yxf0zlsw/fe-advanced-course-team-library?node-id=411%3A2)
   - primary 컬러는 코드스테이츠 로고의 컬러를 차용했습니다.
-  - 전체적인 UI 디자인은 엘포인트의 고객센터 공지사항 게시판을 레퍼런스했습니다. [레퍼런스 링크 : L.point 게시판](https://www.lpoint.com/app/center/LHDA100100.do)
+  - 전체적인 UI 디자인은 엘포인트의 고객센터 공지사항 게시판을 레퍼런스했습니다. 📎 [레퍼런스 링크 : L.point 게시판](https://www.lpoint.com/app/center/LHDA100100.do)
 
 ## 🍫 성능 최적화에 대해서 고민하고 개선한 방법
 
