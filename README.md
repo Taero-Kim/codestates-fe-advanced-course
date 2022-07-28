@@ -63,7 +63,7 @@
 ## 추가 구현 사항에 대한 구현 방법과 설명
 - 페이지네이션 개요
 
-  - `<PageNavigation />`이라는 컴포넌트를 제작하여 게시판 이외의 어느 컴포넌트에서든 재사용할 수 있도록 제작했습니다.
+  - `<PageNavigation />`이라는 컴포넌트를 제작하여 게시판 이외의 어느 컴포넌트에서든 재사용할 수 있도록 제작했습니다. <br /> (댓글 목록에서도 페이지네이션을 사용했습니다.)
   - `pageSize`, `numberOfPagesPerGroup`, `dataLength`, `currentPage`, `setCurrentPage` , `setModal`을<br />props로 받도록 했습니다. 각 prop의 명세는 아래와 같습니다.
   - `pageSize` : 한 페이지에 렌더링 될 아이템의 개수를 정합니다. (드롭다운으로 선택가능: 기본은 10개)
   - `numberOfPagesPerGroup` : 한 페이지당 보이는 페이지 번호 개수입니다. 본 과제에서는 10개를 사용했습니다.
