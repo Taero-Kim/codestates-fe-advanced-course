@@ -1,13 +1,14 @@
-# codestates-fe-advanced-course (SEB*PART_06*김태현)
+# codestates-fe-advanced-course 
+SEB_PART_06 수료생 김태현입니다.
 
 ## 완성된 GIF 파일 및 배포 링크
 
-## 프로젝트 실행 방법
+## 🍫 프로젝트 실행 방법
 
 1. `cd client` : 터미널에서 client 디렉토리로 접근<br />
 2. `npm run start` : 로컬 환경에서 프로젝트 실행
 
-## 사용한 스택 목록
+## 🍫 사용한 스택 목록
 
 - Typescript : v4.7.4
 - React : v18.2.0
@@ -16,7 +17,7 @@
 - axios : v0.27.2
 - Figma
 
-## 구현한 기능 목록
+## 🍫 구현한 기능 목록
 
 - 게시판 메인
   - 게시물 리스트
@@ -35,7 +36,7 @@
   - 에러 컴포넌트
   - 경고 모달
 
-## 구현 방법 혹은 구현하면서 어려웠던 점
+## 🍫 구현 방법 혹은 구현하면서 어려웠던 점
 
 - 전체적인 구조
 
@@ -52,15 +53,15 @@
 - 어려웠던 점
   - useEffect 훅을 쓸 때 dependency 룰을 완벽하게 지키는 것이 조금 어려운 부분이었습니다.
 
-## 직접 작성한 Wireframe 혹은 Prototype
+## 🍫 직접 작성한 Wireframe 혹은 Prototype
 
 - UI 디자인
 
   - 기본적으로 Figma 툴을 사용하여 화면을 그렸습니다.
   - primary 컬러는 코드스테이츠 로고의 컬러를 차용했습니다.
-  - 전체적인 UI 디자인은 엘포인트의 고객센터 공지사항 게시판을 레퍼런스했습니다. [레퍼런스 링크](https://www.lpoint.com/app/center/LHDA100100.do)
+  - 전체적인 UI 디자인은 엘포인트의 고객센터 공지사항 게시판을 레퍼런스했습니다. [레퍼런스 링크 : L.point 게시판](https://www.lpoint.com/app/center/LHDA100100.do)
 
-## 성능 최적화에 대해서 고민하고 개선한 방법
+## 🍫 성능 최적화에 대해서 고민하고 개선한 방법
 
 - Props Drilling에 대한 고민
 
@@ -87,12 +88,14 @@
   - 상황은 `<PostItem />`을 드롭다운을 통해 한 페이지당 5개씩 보기에서 -> 10개씩 보기로 변경해본 상황입니다.
 
   1. `React.memo` 적용전 : `<PostItem />` 10번 그대로 재실행
+  
      ![react-memo-case1](./screenshots/react-memo-before.gif)
 
   2. `React.memo` 적용후 : `<PostItem />` 추가되는 5개의 목록에 대해서만 재실행
+  
      ![react-memo-case2](./screenshots/react-memo-after.gif)
 
-## 추가 구현 사항에 대한 구현 방법과 설명
+## 🍫 추가 구현 사항에 대한 구현 방법과 설명
 
 - 페이지네이션 개요
 
@@ -116,7 +119,7 @@
   - 마지막 페이지에서 다음 페이지 이동 버튼을 누를 경우 하단에 마지막 페이지라는 `<Modal />`이 나타납니다.
   - 상세페이지 라우트로 이동했다가 다시 뒤로 왔을 때 머물고 있던 페이지가 초기화되는 것은 UX상 너무 불편했기 때문에 <br/> 전역상태로 현재 페이지 등의 값을 관리하여 유저가 글을 보고 다시 뒤로 와도 기존에 머물던 페이지를 유지하도록 처리했습니다.
 
-## 기타 구현 사항
+## 🍫 기타 구현 사항
 
 - API 요청 커스텀 훅
 
@@ -162,3 +165,38 @@
 - `<Error />`
 
   - 위에서 제작한 API 요청 커스텀 훅을 통해 요청 후, 실패할 시 나타나는 컴포넌트를 제작했습니다.
+
+## 🍫 스크린샷
+
+- 기본 페이지 이동
+ 
+![page-move](./screenshots/pageMove-basic.gif)
+
+- 페이지 그룹 이동
+ 
+![page-jump](./screenshots/pageMove-jump.gif)
+
+- 검색창 기본
+ 
+![search](./screenshots/search-basic.gif)
+
+- 검색 인풋 2글자 이하인 경우
+ 
+![page-jump](./screenshots/search-message.gif)
+
+- Dropdown 컴포넌트
+ 
+![dropdown](./screenshots/dropdown.gif)
+
+- Loading 컴포넌트
+ 
+![loading](./screenshots/loading.gif)
+
+- Modal 컴포넌트 (마지막 페이지인 경우)
+ 
+![modal](./screenshots/modal.gif)
+
+- 검색 결과 없을 시 (게시글, 댓글 공통)
+ 
+![no-contents](./screenshots/no-contents.gif)
+
