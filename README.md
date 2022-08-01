@@ -1,9 +1,11 @@
 # codestates-fe-advanced-course 
 SEB_PART_06 수료생 김태현입니다.
 
-## 완성된 GIF 파일 및 배포 링크
+## 배포 링크
 
 https://taero-kim.github.io
+
+해당 프로젝트 스크린샷(gif)은 해당 문서 하단에 첨부했습니다.
 
 ## 🍫 프로젝트 실행 방법
 
